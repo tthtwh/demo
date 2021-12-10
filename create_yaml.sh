@@ -7,5 +7,4 @@ ls -l
 cat ./1.txt
 
 cp 1.txt ./upload-yaml/create_yaml.sh
-
-
+ 
