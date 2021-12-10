@@ -8,4 +8,4 @@ metadata:
 spec:
   containers:
     - name: nginx-container
-      image: nginx:1.18
+      image: nginx:1.19
