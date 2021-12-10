@@ -1,4 +1,1 @@
-12312321
-wqeqweqw
-324234324ee
-111111111
+docker pull hub.longtubas.com/k8s/agones-allocator:1.18.0
