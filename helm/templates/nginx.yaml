@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx1
+  name: nginx888888
   namespace: tomcat
   labels:
     {{- include "labels" . | nindent 4 }}
