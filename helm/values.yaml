@@ -1,0 +1,33 @@
+replicaCount: 1
+
+image:
+  repository: hub.longtubas.com/k8s/nginx
+  tag: 1.1
+  pullPolicy: IfNotPresent
+
+imagePullSecrets: []
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  annotations: {}
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  host: example.ctnrs.com
+  tls:
+    secretName: example-ctnrs-com
+
+resources:
+   limits:
+     cpu: 100m
+     memory: 128Mi
+   requests:
+     cpu: 100m
+     memory: 128Mi
+
+nodeSelector: {}
+
+tolerations: []
