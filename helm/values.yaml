@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: hub.longtubas.com/k8s/nginx
-  tag: 1.2
+  tag: 1.1
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
